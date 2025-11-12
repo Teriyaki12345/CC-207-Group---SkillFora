@@ -1,0 +1,37 @@
+name: skill_flora_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  
+  # This key must be a direct child of 'flutter:'
+  uses-material-design: true
+
+  # The 'fonts:' key must also be a direct child of 'flutter:'
+  fonts:
+    - family: MadaniDemo
+      fonts:
+        - asset: assets/fonts/MadaniArabicDEMO-Regular.otf
+        - asset: assets/fonts/MadaniArabicDEMO-Bold.otf
+          weight: 700
+        - asset: assets/fonts/MadaniArabicDEMO-Black.otf
+          weight: 900
+        - asset: assets/fonts/MadaniArabicDEMO-Thin.otf
+          weight: 100
