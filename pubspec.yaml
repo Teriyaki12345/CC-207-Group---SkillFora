@@ -23,6 +23,8 @@ flutter:
   
   # This key must be a direct child of 'flutter:'
   uses-material-design: true
+  assets:
+    - assets/images/
 
   # The 'fonts:' key must also be a direct child of 'flutter:'
   fonts:
@@ -34,4 +36,5 @@ flutter:
         - asset: assets/fonts/MadaniArabicDEMO-Black.otf
           weight: 900
         - asset: assets/fonts/MadaniArabicDEMO-Thin.otf
+
           weight: 100
